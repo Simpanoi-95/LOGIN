@@ -8,4 +8,6 @@
     <string name="login">LOGIN</string>
     <string name="social_media">Or create account using social media</string>
     <string name="with_facebook">f Login with Facebook</string>
+    <string name="an_account">Dont have an account?</string>
+    <string name="sign_up">Sign Up</string>
 </resources>

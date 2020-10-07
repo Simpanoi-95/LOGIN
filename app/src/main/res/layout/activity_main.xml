@@ -29,7 +29,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="144dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="25dp"
         android:layout_marginEnd="144dp"
         android:layout_marginBottom="534dp"
         android:text="@string/text_two"
@@ -45,7 +45,7 @@
         android:layout_width="358dp"
         android:layout_height="39dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="413dp"
         android:autofillHints=""
@@ -105,6 +105,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="232dp"
         android:background="@drawable/rounded_corners"
+        android:textColor="@android:color/white"
         android:text="@string/login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -135,12 +136,45 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="105dp"
+        android:background="@drawable/round_corners"
+        android:textColor="@android:color/white"
         android:text="@string/with_facebook"
-        android:background="@drawable/rounded_corners"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvcreate" />
+
+    <TextView
+        android:id="@+id/tvdont"
+        android:layout_width="221dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/an_account"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnfacebook"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvsign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="37dp"
+        android:text="@string/sign_up"
+        android:textColor="#d4136b"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvdont"
+        app:layout_constraintTop_toBottomOf="@+id/btnfacebook" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
